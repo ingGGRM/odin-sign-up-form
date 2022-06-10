@@ -22,3 +22,22 @@ body {
     opacity: 0.8;
     border-radius: 10px;
 }
+
+#head {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: navy;
+}
+
+#head > :nth-child(1) {margin-top: auto; font-size: 1.6rem; font-weight: bold;}
+#head > :nth-child(2) {font-size: 1rem; font-weight: bold;}
+#head > :nth-child(3) {
+    font-size: 1.3rem;;
+    margin-bottom: 1px;
+    margin-top: auto;
+    margin-left: 10px;
+    text-align: left;
+    text-decoration: underline;
+}
