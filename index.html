@@ -8,33 +8,34 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <img id="splash" src="./images/splash.jpg" alt="Vast green forest." width="100%" style="transform: rotate(0);">
-    <div id="container">
-        <div id="head"><span>The Odin Project</span><span>NodeJS Learning Path</span><span>SignUp Form:</span></div>
-        <div>
-            <form id="form" action="http://httpbin.org/post" method="post">
-                <label for="first-name"> First Name*:
-                    <input type="text" name="first-name" id="first-name" required>
-                </label>
-                <label for="last-name"> Last Name*:
-                    <input type="text" name="last-name" id="last-name" required>
-                </label>
-                <label for="email"> Email*:
-                    <input type="email" name="email" id="email" required>
-                </label>
-                <label for="password"> Password*:
-                    <input type="password" name="password" id="password" required>
-                </label>
-                <label for="phone"> Phone Number:
-                    <input type="tel" name="phone" id="phone">
-                </label>
-            </form>
-        </div>
-        <div id="foot">
-            <button form="form" type="reset">Clear</button>
-            <button form="form" type="submit">Sign Up</button>
+    <div class="container">
+        <img id="logo" src="./images/logo.png" alt="ingGGRM Logo Image">
+        <div id="container">
+            <div id="head"><span>The Odin Project</span><span>NodeJS Learning Path</span><span>SignUp Form:</span></div>
+            <div>
+                <form id="form" action="http://httpbin.org/post" method="post">
+                    <label for="first-name"> First Name*:
+                        <input type="text" name="first-name" id="first-name" required>
+                    </label>
+                    <label for="last-name"> Last Name*:
+                        <input type="text" name="last-name" id="last-name" required>
+                    </label>
+                    <label for="email"> Email*:
+                        <input type="email" name="email" id="email" required>
+                    </label>
+                    <label for="password"> Password*:
+                        <input type="password" name="password" id="password" required>
+                    </label>
+                    <label for="phone"> Phone Number:
+                        <input type="tel" name="phone" id="phone">
+                    </label>
+                </form>
+            </div>
+            <div id="foot">
+                <button form="form" type="reset">Clear</button>
+                <button form="form" type="submit">Sign Up</button>
+            </div>
         </div>
     </div>
-    <img src="./images/logo.png" alt="ingGGRM Logo Image">
 </body>
 </html>
